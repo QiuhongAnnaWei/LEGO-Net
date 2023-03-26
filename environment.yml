@@ -1,0 +1,103 @@
+name: CanonicalArrangements
+channels:
+  - pytorch
+  - defaults
+  - conda-forge
+dependencies:
+  - _libgcc_mutex=0.1
+  - blas=1.0
+  - ca-certificates=2023.01.10
+  - certifi=2022.12.7
+  - cffi=1.15.1
+  - future=0.18.3
+  - joblib=1.1.0
+  - libblas=3.9.0
+  - libcblas=3.9.0
+  - libcxx=15.0.7
+  - libffi=3.3
+  - libgfortran=5.0.0
+  - libgfortran5=12.2.0
+  - liblapack=3.9.0
+  - libopenblas=0.3.21
+  - libprotobuf=3.20.1
+  - libsqlite=3.39.2
+  - libuv=1.44.2
+  - libzlib=1.2.12
+  - llvm-openmp=16.0.0
+  - mkl=2022.2.1
+  - ncurses=6.3
+  - ninja=1.10.2
+  - ninja-base=1.10.2
+  - nomkl=3.0
+  - numpy=1.21.6
+  - openssl=1.1.1t
+  - pip=22.1.2
+  - pycparser=2.21
+  - python=3.7.13
+  - python_abi=3.7
+  - pytorch=1.12.1
+  - pytorch-mutex=1.0
+  - pyyaml=6.0
+  - readline=8.1.2
+  - scikit-learn=1.0.2
+  - scipy=1.7.3
+  - setuptools=63.4.1
+  - sqlite=3.39.2
+  - tabulate=0.8.10
+  - tbb=2021.8.0
+  - threadpoolctl=3.1.0
+  - tk=8.6.12
+  - typing-extensions=4.3.0
+  - typing_extensions=4.3.0
+  - wheel=0.37.1
+  - xz=5.2.5
+  - yaml=0.2.5
+  - zlib=1.2.12
+  # - _openmp_mutex=5.1
+  # - cudatoolkit=11.3.1
+  # - cudnn=8.2.1
+  # - intel-openmp=2022.0.1
+  # - ld_impl_linux-64=2.38
+  # - libgcc-ng=11.2.0
+  # - libgfortran-ng=12.1.0
+  # - libgomp=11.2.0
+  # - libstdcxx-ng=11.2.0
+  - pip:
+    - absl-py==1.2.0
+    - antlr4-python3-runtime==4.9.3
+    - charset-normalizer==2.1.1
+    - cycler==0.11.0
+    - fonttools==4.37.1
+    - glcontext==2.3.7
+    - h5py==3.7.0
+    - idna==3.4
+    - importlib-resources==5.10.0
+    - jinja2==3.1.2
+    - kiwisolver==1.4.4
+    - markupsafe==2.1.1
+    - matplotlib==3.5.3
+    - moderngl==5.7.2
+    - mpmath==1.2.1
+    - multipledispatch==0.6.0
+    - omegaconf==2.2.3
+    - opencv-python==4.6.0.66
+    - ortools==9.4.1874
+    - packaging==21.3
+    - pillow==9.2.0
+    - plyfile==0.7.4
+    - protobuf==4.21.5
+    - pyparsing==3.0.9
+    - pyrr==0.10.3
+    - python-dateutil==2.8.2
+    - requests==2.28.1
+    - simple-3dviz==0.7.0
+    - six==1.16.0
+    - torch-geometric==2.1.0.post1
+    - torch-scatter==2.0.9
+    - torch-sparse==0.6.15
+    - torchvision==0.13.1
+    - tqdm==4.64.1
+    - trimesh==3.14.1
+    - urllib3==1.26.12
+    - zipp==3.10.0
+prefix: /Users/annawei/miniconda3/envs/CanonicalArrangements

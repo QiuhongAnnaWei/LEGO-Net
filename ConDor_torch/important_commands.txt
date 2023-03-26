@@ -1,0 +1,6 @@
+python3.7 -m ConDor_torch.tester_front  'test.apply_rotation=False' 'test.h5_files_path="./ConDor_dictionary/Chair.h5"' 'test.output_h5_file="./ConDor_outputs/Chair.h5"' 'test.weights="../trained_models/ConDor/ConDor_pytorch/outputs/2022-10-26/04-02-22/checkpoints/model-epoch=759-val_l2_loss=0.0322-ConDor.ckpt"' 'test.skip=1'
+
+python3.7 -m ConDor_torch.datasets.dictionary_from_3D_FRONT  --dataset_root ../data/3D_FRONT_new/3D-FUTURE-model/ --category_file ~/Downloads/65347_modelid_by_category/modelid_Chair.txt --output_h5_file ./ConDor_dictionary/Chair.h5
+
+
+
