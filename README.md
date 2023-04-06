@@ -58,6 +58,10 @@ To train for tablechair_horizontal, tablechair_circle, tablechair_shape (with co
 python train.py  --log 1 --train 1  --train_epoch 100000  --train_pos_noise_level_stddev 0.25 --train_ang_noise_level_stddev 0.78539816  --data_type tablechair_horizontal
 ```
 
+### Pretrained Weights
+We also provide LEGO-Net weights pretrained on 3D-FRONT for 50k iterations.
+* [Pretrained bedroom weight](https://drive.google.com/file/d/183j3i6R-YtgyOkWsUYnH894ZBkdyseZH/view?usp=sharing)
+* [Pretrained livingroom weight](https://drive.google.com/file/d/1FKkjaKHC5alrN3SsPDAZ3iU24AfAEw4s/view?usp=sharing)
 
 <br>
 
