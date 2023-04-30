@@ -83,11 +83,15 @@ class TDFDataset:
 
         # preload data into RAM
         if self.livingroom_only:
-            self.data_tv = np.load( os.path.join(self.scene_dir, "data_tv_ctr_livingroomonly.npz"), allow_pickle=True)
-            self.data_test = np.load( os.path.join(self.scene_dir, "data_test_ctr_livingroomonly.npz"), allow_pickle=True)
+            if os.path.exists(os.path.join(self.scene_dir, "data_tv_ctr_livingroomonly.npz")):
+                self.data_tv = np.load( os.path.join(self.scene_dir, "data_tv_ctr_livingroomonly.npz"), allow_pickle=True)
+            if os.path.exists(os.path.join(self.scene_dir, "data_test_ctr_livingroomonly.npz")):
+                self.data_test = np.load( os.path.join(self.scene_dir, "data_test_ctr_livingroomonly.npz"), allow_pickle=True)
         else:
-            self.data_tv = np.load( os.path.join(self.scene_dir, "data_tv_ctr.npz"), allow_pickle=True)
-            self.data_test = np.load( os.path.join(self.scene_dir, "data_test_ctr.npz"), allow_pickle=True)
+            if os.path.exists(os.path.join(self.scene_dir, "data_tv_ctr.npz")):
+                self.data_tv = np.load( os.path.join(self.scene_dir, "data_tv_ctr.npz"), allow_pickle=True)
+            if os.path.exists(os.path.join(self.scene_dir, "data_test_ctr.npz")):
+                self.data_test = np.load( os.path.join(self.scene_dir, "data_test_ctr.npz"), allow_pickle=True)
 
         with open(os.path.join(self.scene_dir, "dataset_stats_all.txt")) as f:
             # Same regardless of if only living room (ctr.npz processed from boxes.npz, generated in one go from ATISS for all living+livingdiningrooms)
