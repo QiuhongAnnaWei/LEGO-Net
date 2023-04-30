@@ -20,6 +20,7 @@ Modify ``filepath.py`` accordingly.
 ## Downloads
 Downloadable assets may be found at [this google drive](https://drive.google.com/drive/folders/1MmSb6461ixGGqGa5hRY3s0IR4xTeRdPF?usp=sharing). It contains:
 * Preprocessed 3D-FRONT data: ``3DFRONT_65347``
+  * The preprocessing script can be found at `data/preprocess_TDFront.py`. It operates on the output of [ATISS](https://github.com/nv-tlabs/ATISS)'s preprocessing script. See code for details.
 * Precomputed Condor features (only needed for tablechair_shape): ``Table.h5``, ``Chair.h5``
 
 
